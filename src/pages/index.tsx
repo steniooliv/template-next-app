@@ -1,8 +1,12 @@
 import type { NextPage } from 'next'
 
+import styles from "../styles/home.module.scss";
+
 const Home: NextPage = () => {
   return (
-    <div>Hello World</div>
+    <h1 className={styles.h1}>
+      Hello World
+    </h1>
   )
 }
 
